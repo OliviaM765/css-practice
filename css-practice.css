@@ -1,0 +1,42 @@
+body {
+  font-family: monospace;
+}
+h1 {
+  color: blue
+}
+
+h2 {
+  color: red;
+  font-weight: bold;
+}
+
+p {
+  text-indent: 3cm;
+}
+ol {
+  list-style-type: upper-roman;
+}
+
+el1 {
+  width: 60px;
+  display: block;
+  margin-bottom: 30px
+}
+
+#el2 {
+  width: 60px;
+  display: inline-block;
+  margin-top: 20px
+}
+div {
+  display: block;  /* block is the default value */
+}
+div.red {
+  background: red;
+  width: 100px;
+}
+
+div.green {
+  background: green;
+  width: 100px;
+}
